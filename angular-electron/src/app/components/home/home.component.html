@@ -1,0 +1,20 @@
+<button mat-button [matMenuTriggerFor]="menu" color="primary">Menu</button>
+  <mat-menu #menu="matMenu">
+    <a routerLink="/commands"mat-menu-item>Commands</a>
+    <button mat-menu-item>Signout</button>
+  </mat-menu>
+  <mat-divider md-inset></mat-divider>
+<mat-card class="welcome-card">
+  
+<mat-card-title color="accent">
+  Welcome To Vaca
+</mat-card-title>
+
+<mat-card-content class="mat-app-background">
+
+</mat-card-content>
+<mat-card-actions>
+  <button mat-button color="accent">Sign In</button>
+  <button mat-button >Sign Up</button>
+</mat-card-actions>
+</mat-card>

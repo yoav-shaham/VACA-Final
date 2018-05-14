@@ -1,0 +1,54 @@
+<!---
+  <button mat-button color="primary" (click)="getCommands()">refresh</button>
+-->
+<mat-toolbar>
+<mat-toolbar-row>
+    <span>Third Line</span>
+    <span class="example-spacer" ></span>
+    <button mat-icon-button color="primary" (click)="backClicked()">
+        <mat-icon svgIcon="back"></mat-icon>
+      </button>
+    <button mat-icon-button color="primary" (click)="getCommands()">
+        <mat-icon svgIcon="reload"></mat-icon>
+      </button>
+      <button mat-icon-button color="primary" (click)="addCommand()">
+          <mat-icon svgIcon="add"></mat-icon>
+        </button>
+        
+
+  </mat-toolbar-row>
+</mat-toolbar>
+  <mat-accordion>
+    <mat-expansion-panel *ngFor="let command of commandsHolder['commands']">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          {{command['commandName']}}
+        </mat-panel-title>
+        <mat-panel-description>
+          {{command.commandComment}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+  
+      <pre><code highlight [code]="command.commandScript" (highlighted)="onHighlight($event)"></code></pre>   
+     </mat-expansion-panel>
+    </mat-accordion>
+    <mat-divider ></mat-divider> 
+    
+    <!--mat-card *ngIf="addCommandToggle==true" class="command-adding-card" >
+      
+  <mat-card-title >
+  <mat-form-field class="command-name">
+    <input matInput placeholder="Command Name">
+  </mat-form-field>
+</mat-card-title>
+        <mat-card-subtitle>
+          <mat-form-field class="command-description">
+            <textarea matInput placeholder="Command Description"></textarea>         
+           </mat-form-field>
+        </mat-card-subtitle>
+      <mat-form-field>
+        <input matInput placeholder="First name">
+      </mat-form-field>
+  
+</mat-card-->
+   
