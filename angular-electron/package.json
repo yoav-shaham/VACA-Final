@@ -38,7 +38,6 @@
     "@angular/animations": "^5.2.10",
     "@angular/cdk": "^5.2.5",
     "@angular/material": "^5.2.5",
-    "@google-cloud/speech": "^1.5.0",
     "binaryjs": "^0.2.1",
     "cli-update": "^3.2.5",
     "codemirror": "^5.37.0",
