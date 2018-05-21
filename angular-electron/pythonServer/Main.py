@@ -10,6 +10,9 @@ import zerorpc
 # ------------------------variables--------------
 name = "Amy"
 key="AIzaSyBZh4ZPUWldAfTciUCIVaFA9NsTaFjcVw4"
+commands=[
+    {"commandName":"hey there"}
+    ]
 # -----------------------------------------------
 
 
@@ -29,16 +32,26 @@ class command_class(object):
         self.engine.say("Hey There")
         self.engine.runAndWait()
 #--------------------------------------------------
+
 class api(object):
     def initiating_listening(self):
+        zerorpc.heartbeat.gevent.sleep(0)
         while True:
             command = streaming.main()
-            if name in command:
-                x = command_class(command)
+            yield command
+    def check_for_command(self):
+        output=self.initiating_listening()
+        for phrase in output:
+            for command in commands:
+                if command["commandName"] in phrase:
+                   self.perform_command(command)
+    def perform_command(self,command):
+        print "fuckeds you over"
 def main():
-    s = zerorpc.Server(api())
+    
+    s = zerorpc.Server(api(),heartbeat=1000)
     s.bind("tcp://0.0.0.0:4242")
-    s.run() 
+    s.run()
 
 if __name__ == '__main__':
     main()

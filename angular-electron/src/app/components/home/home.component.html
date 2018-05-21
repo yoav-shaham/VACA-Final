@@ -1,3 +1,4 @@
+<body>
 <button mat-button [matMenuTriggerFor]="menu" color="primary">Menu</button>
   <mat-menu #menu="matMenu">
     <a routerLink="/commands"mat-menu-item>Commands</a>
@@ -7,7 +8,7 @@
 <mat-card class="welcome-card">
   
 <mat-card-title color="accent">
-  Welcome To Vaca
+  Welcome To Vaca1
 </mat-card-title>
 
 <mat-card-content class="mat-app-background">
@@ -16,5 +17,9 @@
 <mat-card-actions>
   <button mat-button color="accent">Sign In</button>
   <button mat-button >Sign Up</button>
+  <button mat-button onClick="startRecording()"> start listening</button>
+  
 </mat-card-actions>
 </mat-card>
+
+  </body>

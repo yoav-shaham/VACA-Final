@@ -6,7 +6,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
-import * as zerorpc from "zerorpc";
 import { AppRoutingModule } from './app-routing.module';
 import { ReactiveFormsModule } from '@angular/forms'; 
 // NG Translate
@@ -42,6 +41,7 @@ import { CodeEditorComponent } from './components/code-editor/code-editor.compon
 //importing ace component
 import { CodemirrorModule } from 'ng2-codemirror';
 import { CommandDialogComponent } from './components/command-dialog/command-dialog.component';
+import { VoiceToTextService } from './services//voice-to-text/voice-to-text.service';
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -84,7 +84,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ElectronService, HttpService],
+  providers: [ElectronService, HttpService, VoiceToTextService],
   bootstrap: [AppComponent],
   entryComponents: [CommandDialogComponent]
 })
