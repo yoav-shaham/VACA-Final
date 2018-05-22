@@ -3,6 +3,9 @@
 import Voice_Recognition as streaming
 import pyttsx
 import zerorpc
+import httplib
+import threading
+import ast
 # -----------------------------------------------
 """
  was not sure wether to use sphinx or google cloud decided on google because sphinx was very bad
@@ -34,19 +37,37 @@ class command_class(object):
 #--------------------------------------------------
 
 class api(object):
+    commands=[
+    {"commandName":"hey there"}
+    ]
+    url='127.0.0.1:3000'
     def initiating_listening(self):
         zerorpc.heartbeat.gevent.sleep(0)
         while True:
             command = streaming.main()
             yield command
     def check_for_command(self):
+        checking_thread=threading.Thread(target=self.check_for_command_thread,args=[])
+        checking_thread.start()
+    def check_for_command_thread(self):
         output=self.initiating_listening()
         for phrase in output:
-            for command in commands:
-                if command["commandName"] in phrase:
+            for command in self.commands:
+                if command["commandName"].upper() in phrase.upper():
                    self.perform_command(command)
     def perform_command(self,command):
-        print "fuckeds you over"
+        exec(command["commandScript"])
+    def update_commands(self):
+        print "entered update commands"
+        conn=httplib.HTTPConnection(self.url)
+        conn.request('GET','/command')
+        response=conn.getresponse().read()
+        conn.close()
+        response=ast.literal_eval(response)
+        print type(response)
+        self.commands=response["commands"]
+        print self.commands
+        return "Succes"
 def main():
     
     s = zerorpc.Server(api(),heartbeat=1000)

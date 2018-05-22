@@ -1,1 +1,29 @@
-{"commands":[{"commandName":"a command","commandScript":"doing shit","commandComment":"this is rad bro"},{"commandName":"The Second Command","commandScript":"a nice ass command","commandComment":"this is crazy nearly able to have infinite commands"},{"commandName":"asfd","commandScript":"asfd","commandComment":""},{"commandName":"afsdfas","commandScript":"asfdfsad","commandComment":"asfdasdfa"},{"commandName":"asfd","commandScript":"asfd","commandComment":""},{"commandName":"afsdfas","commandScript":"asfdfsad","commandComment":"asfdasdfa"},{"commandName":"dsadasd","commandScript":"dsasdas","commandComment":""},{"commandName":"dsadasd","commandScript":"dsasdas","commandComment":""},{"commandName":"a command ","commandScript":"hel\n","commandComment":""},{"commandName":"asdf","commandScript":"fsadfsa","commandComment":"safdasdfsa"},{"commandName":"asdf","commandScript":"fsadfsa","commandComment":"safdasdfsa"}]}
+{
+    "commands": [
+        {
+            "commandName": "fuck you",
+            "commandScript": "print \"no fuck you u little shit\"",
+            "commandComment": ""
+        },
+        {
+            "commandName": "hey there bro",
+            "commandScript": "print \"hey there\"",
+            "commandComment": ""
+        },
+        {
+            "commandName": "hey there bro",
+            "commandScript": "print \"hey there\"",
+            "commandComment": ""
+        },
+        {
+            "commandName": "hello there brother",
+            "commandScript": "print \"hello\"\nprint \"fuck off\"",
+            "commandComment": ""
+        },
+        {
+            "commandName": "hello there brother",
+            "commandScript": "print \"hello\"\nprint \"fuck off\"",
+            "commandComment": ""
+        }
+    ]
+}

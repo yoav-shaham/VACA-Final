@@ -161,32 +161,35 @@ def listen_print_loop(responses):
             return command
 
 def key_confirmation():
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\\Users\\shaha\\Desktop\\Vaca\\VACA\\angular-electron\\src\\assets\\client_secret2.json"
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\\Users\\shaha\\Desktop\\Vaca\\VACA\\angular-electron\\src\\assets\\client_secret.json"
 def main():
     # See http://g.co/cloud/speech/docs/languages
     # for a list of supported languages.
+    while True:
+        try:
+            key_confirmation()
+            language_code = 'en-GB'  # a BCP-47 language tag
+            time_out=0
+            client = speech.SpeechClient()
+            config = types.RecognitionConfig(
+                encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
+                sample_rate_hertz=RATE,
+                language_code=language_code)
+            streaming_config = types.StreamingRecognitionConfig(
+                config=config,
+                interim_results=True)
 
-    key_confirmation()
-    language_code = 'en-GB'  # a BCP-47 language tag
-    time_out=0
-    client = speech.SpeechClient()
-    config = types.RecognitionConfig(
-        encoding=enums.RecognitionConfig.AudioEncoding.LINEAR16,
-        sample_rate_hertz=RATE,
-        language_code=language_code)
-    streaming_config = types.StreamingRecognitionConfig(
-        config=config,
-        interim_results=True)
+            with MicrophoneStream(RATE, CHUNK) as stream:
+                audio_generator = stream.generator()
+                requests = (types.StreamingRecognizeRequest(audio_content=content)
+                            for content in audio_generator)
 
-    with MicrophoneStream(RATE, CHUNK) as stream:
-        audio_generator = stream.generator()
-        requests = (types.StreamingRecognizeRequest(audio_content=content)
-                    for content in audio_generator)
+                responses = client.streaming_recognize(streaming_config, requests)
 
-        responses = client.streaming_recognize(streaming_config, requests)
-
-        # Now, put the transcription responses to use.
-        command=listen_print_loop(responses)
-        if command is not None:
-            stream.__exit__()
-            return command
+                # Now, put the transcription responses to use.
+                command=listen_print_loop(responses)
+                if command is not None:
+                    stream.__exit__()
+                    return command
+        except:
+            pass
