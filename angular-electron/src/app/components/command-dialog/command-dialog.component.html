@@ -4,7 +4,7 @@
   <mat-form-field class="command-name">
     <input [formControl]="NameFormControl" [(ngModel)]="newCommand.commandName" matInput placeholder="Command Name" required>
     <mat-error *ngIf="NameFormControl.hasError('required')">
-      Email is <strong>required</strong>
+      Command Name is <strong>required</strong>
     </mat-error>
   </mat-form-field>
 </mat-card-title>
@@ -16,7 +16,7 @@
       <mat-form-field>
         <textarea matInput [formControl]="CodeFormControl" [(ngModel)]="newCommand.commandScript" matInput placeholder="Code goes here" required></textarea>
         <mat-error *ngIf="CodeFormControl.hasError('required')">
-          Email is <strong>required</strong>
+          Commands Script is <strong>required</strong>
         </mat-error>
       </mat-form-field>
       

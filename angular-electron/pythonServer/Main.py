@@ -42,7 +42,7 @@ class api(object):
     commands=[
     {"commandName":"hey there"}
     ]
-    url='127.0.0.1:3000'
+    url='ec2-18-221-254-75.us-east-2.compute.amazonaws.com'
     def initiating_listening(self):
         zerorpc.heartbeat.gevent.sleep(0)
         while True:

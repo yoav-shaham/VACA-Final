@@ -40,7 +40,6 @@ import { HighlightModule } from 'ngx-highlightjs';
 //importing ace component
 import { CodemirrorModule } from 'ng2-codemirror';
 import { CommandDialogComponent } from './components/command-dialog/command-dialog.component';
-import { VoiceToTextService } from './services//voice-to-text/voice-to-text.service';
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -82,7 +81,7 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [ElectronService, HttpService, VoiceToTextService],
+  providers: [ElectronService, HttpService],
   bootstrap: [AppComponent],
   entryComponents: [CommandDialogComponent]
 })
