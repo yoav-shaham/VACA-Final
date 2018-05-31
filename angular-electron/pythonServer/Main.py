@@ -6,6 +6,7 @@ import zerorpc
 import httplib
 import threading
 import ast
+from multiprocessing import Process
 # -----------------------------------------------
 """
  was not sure wether to use sphinx or google cloud decided on google because sphinx was very bad
@@ -37,6 +38,7 @@ class command_class(object):
 #--------------------------------------------------
 
 class api(object):
+    checking_thread=None
     commands=[
     {"commandName":"hey there"}
     ]
@@ -47,8 +49,9 @@ class api(object):
             command = streaming.main()
             yield command
     def check_for_command(self):
-        checking_thread=threading.Thread(target=self.check_for_command_thread,args=[])
-        checking_thread.start()
+        print "initiating listeninng thread"
+        self.checking_thread=Process(target=self.check_for_command_thread,args=())
+        self.checking_thread.start()
     def check_for_command_thread(self):
         output=self.initiating_listening()
         for phrase in output:
@@ -56,9 +59,17 @@ class api(object):
                 if command["commandName"].upper() in phrase.upper():
                    self.perform_command(command)
     def perform_command(self,command):
-        exec(command["commandScript"])
+        try:
+            exec(command["commandScript"])
+        except:
+            engine=pyttsx.init()
+            engine.say("Could not run the"+command["commandName"]+"command script")
+            engine.runAndWait()
     def update_commands(self):
+        print "Shutting Down Thread"
+        wasAlive=self.shutdown_thread()
         print "entered update commands"
+
         conn=httplib.HTTPConnection(self.url)
         conn.request('GET','/command')
         response=conn.getresponse().read()
@@ -67,7 +78,20 @@ class api(object):
         print type(response)
         self.commands=response["commands"]
         print self.commands
+        if (wasAlive):
+            print "Turning on thread"
+            self.check_for_command()
+            print "turned on"
         return "Succes"
+    def shutdown_thread(self):
+        if self.checking_thread.is_alive():
+            self.checking_thread.terminate()
+            self.checking_thread.join()
+            print "closed"
+            return True
+        else:
+            print "Already Closed"
+
 def main():
     
     s = zerorpc.Server(api(),heartbeat=1000)

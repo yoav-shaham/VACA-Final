@@ -37,7 +37,6 @@ import { CommandsComponent } from './components/commands/commands.component';
 import { HttpService } from './services/http-services/http.service';
 //importing the highlighting module
 import { HighlightModule } from 'ngx-highlightjs';
-import { CodeEditorComponent } from './components/code-editor/code-editor.component';
 //importing ace component
 import { CodemirrorModule } from 'ng2-codemirror';
 import { CommandDialogComponent } from './components/command-dialog/command-dialog.component';
@@ -53,7 +52,6 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     WebviewDirective,
     CommandsComponent,
-    CodeEditorComponent,
     CommandDialogComponent
   ],
   imports: [

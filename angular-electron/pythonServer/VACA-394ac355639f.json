@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "vaca-2018",
+  "private_key_id": "394ac355639f04f89f1ffba6f8466950e203dcbe",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCq9dWVm2RPIZbW\n52dzTGaRWE7rF8vdmncHBefscRq3gwlerX5s6IL9aVgk8wm99i8FGvGAh0ABqC/L\nm5FAflPAgRatY1o1UFL/q9Gwns0DPcOPkPJvn0LaXXX4k4/zRnfUM3b9ZxaLnzwt\niS8cwAisnmAHj5lRF1aE5J2sgkeecsLSS6/omArIbVJkGkiBlqiJKTSgBF1eBN13\naXYh7j7sreNRZ8qE1rz7epapmEp44S0ZFsRLFgi4GEGOf7Eo/Ck9P6PY8qMJIgQq\nzmXw7DhY3FeWF+GW7GLLzzfQlG6EGaLW8DLIAqY26MJoi+KHayjBCJDJBfOTj6V/\nTpnTct33AgMBAAECggEAIkNDq4ipmVxbfTWCW663rbB7nI032/Fdoogx+4aNerLl\n2VY/DLeqrPwEYN9el/YzZTwJo583mj1pWs6SVVEcGuwkLdrIFQBEqh322AVzhA9I\nVskPdYR/IwFxJ8D3LCP21w37bnzPHWtr5ZplWUc5VdMl3s4ORZy+R8MDwLOZg+0b\nKiIy7WsIDeQH8F+OBvOpBDTW6e6e04gnEKqa8lfa433eTZjxbuuNVMkBcKLadwRM\nDNL9UWuSGYHmo8kWpXmNSgxQnuZcwqKd5Y51wsNcfhbrVyFsepxHdmsQRGDw2nJl\nw7OVfs2hxml/7ux+V6ivmesh/Kgg5oVW+44VB78k5QKBgQDZAhmwBkWmc5bPwcbC\nV0cZD++WbmsMl8ZaYvANBOWwNcv9PpkLPF21ZXkTA/7mI0cUrGeyEw+5LoYo7eIH\nQrTPMnkPlb8l4tzsq8kFK0osoenRaiRJPz6ZQqRVa9gYePTKlGYquPLpPxLu3rse\n4mQzy873J2zc80uqqLP1mbGBZQKBgQDJraGckTFbFahFo9PBSkCXnQ08QfXrmu02\n8Xm4YgZDR18SW13T1rJEzyzY6my6JP8zrguFtmT8dPqSrxpMSODJaOTfw953rrJ2\nhPzpswHd2CbCq3HLgTpXud1J112s22qKCsAJR3mFrBlV0LvQ+6cgQR321vOQGT/F\nEM1JS5h6KwKBgQCrZjhJyrpqfPOKBsBpMSxLxEV1KKNOn/Yf3/NAJTURl3wV+sJA\nmJ5fLtWRSl+jAAwdbQq+IMYTeoamfzU+jNZorLHnuFvwnZ3nJMuyVH3SgNQ//jjI\nzbYwsO1BNtvIgIjAFLQZXFkoFxRqLOvYufFw47IFjlMytMt38KWq/4iu7QKBgQCl\n8o82q2n3TtzFYMaPF7AKkRog6Q2XrkVenlfP1ijdF08tZazQ8KqDYA3A9zQ7/tFX\nDvFANxLlgMPmCtsSxizgzcT2Ms9Nn5wNVeRd0APLLV7HdBcQoucE5FUnu2TDJVCH\nAc1+VSezTCcUq8q/bTLZoXssbza+7WfBmc+xbdirPQKBgQC2Y08T2lf8/LfdxEXi\nb4TtdOZcKWrVtfMVbbDbjNAhqtsTIP319JxK0PDAuLlcZ9LbULbGjFl0W1XQXwKZ\nHY4qAoPLr/7rTkJ5cfR71RZTzHHIgSY/LgetnYVeiopvpc/2vgadBzik6v2+N6BU\ng2ORlXg8GkTy6g/WkymmkOanGQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "electron@vaca-2018.iam.gserviceaccount.com",
+  "client_id": "105998385042709551220",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/electron%40vaca-2018.iam.gserviceaccount.com"
+}

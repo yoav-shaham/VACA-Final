@@ -161,7 +161,7 @@ def listen_print_loop(responses):
             return command
 
 def key_confirmation():
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\\Users\\shaha\\Desktop\\Vaca\\VACA\\angular-electron\\src\\assets\\client_secret.json"
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\\Users\\shaha\\Desktop\\realfinish\\VACA-Final\\angular-electron\\pythonServer\\VACA-394ac355639f.json"
 def main():
     # See http://g.co/cloud/speech/docs/languages
     # for a list of supported languages.

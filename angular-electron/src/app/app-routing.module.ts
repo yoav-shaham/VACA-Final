@@ -1,7 +1,6 @@
 //importing all components for routing----------------------------------------------------
 import { HomeComponent } from './components/home/home.component';
 import {CommandsComponent } from './components/commands/commands.component';
-import {CodeEditorComponent} from './components/code-editor/code-editor.component'
 //----------------------------------------------------------------------------------------
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
