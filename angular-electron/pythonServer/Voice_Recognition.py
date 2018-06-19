@@ -161,13 +161,18 @@ def listen_print_loop(responses):
             return command
 
 def key_confirmation():
-    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\\Users\\shaha\\Desktop\\realfinish\\VACA-Final\\angular-electron\\pythonServer\\VACA-394ac355639f.json"
+    path = os.path.abspath(os.path.dirname(sys.argv[0]))
+    path=path.split("\\")
+    path.pop()
+    path = "\\".join(path)
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] =path + r"\pythonServer\VACA-394ac355639f.json"
 def main():
     # See http://g.co/cloud/speech/docs/languages
     # for a list of supported languages.
     while True:
-        try:
+        #try:
             key_confirmation()
+            
             language_code = 'en-GB'  # a BCP-47 language tag
             time_out=0
             client = speech.SpeechClient()
@@ -178,12 +183,12 @@ def main():
             streaming_config = types.StreamingRecognitionConfig(
                 config=config,
                 interim_results=True)
-
+            print "hey"
             with MicrophoneStream(RATE, CHUNK) as stream:
                 audio_generator = stream.generator()
                 requests = (types.StreamingRecognizeRequest(audio_content=content)
                             for content in audio_generator)
-
+                print "second"
                 responses = client.streaming_recognize(streaming_config, requests)
 
                 # Now, put the transcription responses to use.
@@ -191,5 +196,6 @@ def main():
                 if command is not None:
                     stream.__exit__()
                     return command
-        except:
-            pass
+        #except:
+         #   print "failed"
+          #  pass

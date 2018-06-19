@@ -1,0 +1,1951 @@
+DEBUG:zerorpc.events:bound to tcp://0.0.0.0:4242 (status=None)
+DEBUG:zerorpc.channel:<-- new channel 50d66f0b-ace0-4ff5-b821-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 50d66f0b-ace0-4ff5-b821-000000000000
+DEBUG:zerorpc.channel:<-- new channel 50d66f0b-ace0-4ff5-b821-000000000001
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 50d66f0b-ace0-4ff5-b821-000000000001
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:zerorpc.channel:<-- new channel 50d66f0b-ace0-4ff5-b821-000000000002
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 50d66f0b-ace0-4ff5-b821-000000000002
+DEBUG:zerorpc.channel:<-- new channel 50d66f0b-ace0-4ff5-b821-000000000003
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 50d66f0b-ace0-4ff5-b821-000000000003
+DEBUG:zerorpc.channel:<-- new channel 50d66f0b-ace0-4ff5-b821-000000000004
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 50d66f0b-ace0-4ff5-b821-000000000004
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:zerorpc.channel:<-- new channel 50d66f0b-ace0-4ff5-b821-000000000005
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 50d66f0b-ace0-4ff5-b821-000000000005
+DEBUG:zerorpc.channel:<-- new channel 50d66f0b-ace0-4ff5-b821-000000000006
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 50d66f0b-ace0-4ff5-b821-000000000006
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:zerorpc.events:bound to tcp://0.0.0.0:4242 (status=None)
+DEBUG:zerorpc.channel:<-- new channel 7e84b9c7-6450-49d2-ba2b-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 7e84b9c7-6450-49d2-ba2b-000000000000
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:zerorpc.events:bound to tcp://0.0.0.0:4242 (status=None)
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000000
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000001
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000001
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000002
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000002
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000003
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000003
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000004
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000004
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000005
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000005
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000006
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000006
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000007
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000007
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000008
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000008
+DEBUG:zerorpc.channel:<-- new channel 74889edb-3301-4c1d-9151-000000000009
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 74889edb-3301-4c1d-9151-000000000009
+DEBUG:zerorpc.events:bound to tcp://0.0.0.0:4242 (status=None)
+DEBUG:zerorpc.channel:<-- new channel 72a27208-7ded-4e12-b7a2-000000000000
+DEBUG:root:Shutting Down Thread
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 72, in update_commands
+    wasAlive=self.shutdown_thread()
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 89, in shutdown_thread
+    if self.checking_thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'is_alive'
+DEBUG:zerorpc.channel:-x- closed channel 72a27208-7ded-4e12-b7a2-000000000000
+DEBUG:zerorpc.channel:<-- new channel 72a27208-7ded-4e12-b7a2-000000000001
+DEBUG:root:Shutting Down Thread
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 72, in update_commands
+    wasAlive=self.shutdown_thread()
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 89, in shutdown_thread
+    if self.checking_thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'is_alive'
+DEBUG:zerorpc.channel:-x- closed channel 72a27208-7ded-4e12-b7a2-000000000001
+DEBUG:zerorpc.channel:<-- new channel 72a27208-7ded-4e12-b7a2-000000000002
+DEBUG:root:Shutting Down Thread
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 72, in update_commands
+    wasAlive=self.shutdown_thread()
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 89, in shutdown_thread
+    if self.checking_thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'is_alive'
+DEBUG:zerorpc.channel:-x- closed channel 72a27208-7ded-4e12-b7a2-000000000002
+DEBUG:zerorpc.channel:<-- new channel 72a27208-7ded-4e12-b7a2-000000000003
+DEBUG:root:Shutting Down Thread
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 72, in update_commands
+    wasAlive=self.shutdown_thread()
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 89, in shutdown_thread
+    if self.checking_thread.is_alive():
+AttributeError: 'NoneType' object has no attribute 'is_alive'
+DEBUG:zerorpc.channel:-x- closed channel 72a27208-7ded-4e12-b7a2-000000000003
+DEBUG:zerorpc.events:bound to tcp://0.0.0.0:4242 (status=None)
+WARNING:zerorpc.channel:zerorpc.ChannelMultiplexer, unable to route event: <'\x00\x80\x00\x00)'> _zpc_hb {u'response_to': u'5fb7d3e6-3f47-4957-821a-000000000000', u'message_id': u'5fb7d3e6-3f47-4957-821a-000000000001', u'v': 3} [...]
+DEBUG:zerorpc.channel:<-- new channel 5fb7d3e6-3f47-4957-821a-000000000000
+DEBUG:zerorpc.channel:<-- new channel 5fb7d3e6-3f47-4957-821a-000000000002
+DEBUG:root:initiating listeninng thread
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 5fb7d3e6-3f47-4957-821a-000000000000
+DEBUG:zerorpc.channel:-x- closed channel 5fb7d3e6-3f47-4957-821a-000000000002
+DEBUG:zerorpc.channel:<-- new channel 5fb7d3e6-3f47-4957-821a-000000000003
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 5fb7d3e6-3f47-4957-821a-000000000003
+DEBUG:zerorpc.channel:<-- new channel 5fb7d3e6-3f47-4957-821a-000000000004
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 5fb7d3e6-3f47-4957-821a-000000000004
+DEBUG:zerorpc.channel:<-- new channel 5fb7d3e6-3f47-4957-821a-000000000005
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 5fb7d3e6-3f47-4957-821a-000000000005
+DEBUG:zerorpc.channel:<-- new channel 5fb7d3e6-3f47-4957-821a-000000000006
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 5fb7d3e6-3f47-4957-821a-000000000006
+DEBUG:zerorpc.events:bound to tcp://0.0.0.0:4242 (status=None)
+WARNING:zerorpc.channel:zerorpc.ChannelMultiplexer, unable to route event: <'\x00\x80\x00\x00)'> _zpc_hb {u'response_to': u'9b4d0f07-5b50-4ee9-bc7f-000000000000', u'message_id': u'9b4d0f07-5b50-4ee9-bc7f-000000000001', u'v': 3} [...]
+DEBUG:zerorpc.channel:<-- new channel 9b4d0f07-5b50-4ee9-bc7f-000000000000
+DEBUG:zerorpc.channel:<-- new channel 9b4d0f07-5b50-4ee9-bc7f-000000000002
+DEBUG:zerorpc.channel:<-- new channel 9b4d0f07-5b50-4ee9-bc7f-000000000003
+DEBUG:root:initiating listeninng thread
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 9b4d0f07-5b50-4ee9-bc7f-000000000000
+DEBUG:zerorpc.channel:-x- closed channel 9b4d0f07-5b50-4ee9-bc7f-000000000002
+DEBUG:zerorpc.channel:-x- closed channel 9b4d0f07-5b50-4ee9-bc7f-000000000003
+DEBUG:zerorpc.channel:<-- new channel 9b4d0f07-5b50-4ee9-bc7f-000000000004
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 9b4d0f07-5b50-4ee9-bc7f-000000000004
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:zerorpc.channel:<-- new channel 9b4d0f07-5b50-4ee9-bc7f-000000000005
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 9b4d0f07-5b50-4ee9-bc7f-000000000005
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:zerorpc.channel:<-- new channel 70dc6071-2227-43fa-abba-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 70dc6071-2227-43fa-abba-000000000000
+DEBUG:google.auth.transport.requests:Making request: POST https://accounts.google.com/o/oauth2/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): accounts.google.com
+DEBUG:urllib3.connectionpool:https://accounts.google.com:443 "POST /o/oauth2/token HTTP/1.1" 200 None
+DEBUG:zerorpc.channel:<-- new channel 70dc6071-2227-43fa-abba-000000000001
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 70dc6071-2227-43fa-abba-000000000001
+DEBUG:zerorpc.channel:<-- new channel 70dc6071-2227-43fa-abba-000000000002
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn.request('GET','/command')
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 70dc6071-2227-43fa-abba-000000000002
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000000
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000001
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000001
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000002
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000002
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000003
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000003
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000004
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000004
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000005
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000005
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000006
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000006
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000007
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000007
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000008
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000008
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000009
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000009
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-00000000000a
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-00000000000a
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-00000000000b
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-00000000000b
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-00000000000c
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-00000000000c
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-00000000000d
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-00000000000d
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-00000000000e
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-00000000000e
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-00000000000f
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-00000000000f
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000010
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000010
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000011
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000011
+DEBUG:zerorpc.channel:<-- new channel b6e7ca8a-49cd-43f1-afeb-000000000012
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel b6e7ca8a-49cd-43f1-afeb-000000000012
+DEBUG:zerorpc.channel:<-- new channel 265b5f12-fb97-4931-9d2d-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 265b5f12-fb97-4931-9d2d-000000000000
+DEBUG:zerorpc.channel:<-- new channel 265b5f12-fb97-4931-9d2d-000000000001
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 265b5f12-fb97-4931-9d2d-000000000001
+DEBUG:zerorpc.channel:<-- new channel 265b5f12-fb97-4931-9d2d-000000000002
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 265b5f12-fb97-4931-9d2d-000000000002
+DEBUG:zerorpc.channel:<-- new channel 265b5f12-fb97-4931-9d2d-000000000003
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 265b5f12-fb97-4931-9d2d-000000000003
+DEBUG:zerorpc.channel:<-- new channel a9e61dbd-06ba-4de4-b8bb-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel a9e61dbd-06ba-4de4-b8bb-000000000000
+DEBUG:zerorpc.channel:<-- new channel a9e61dbd-06ba-4de4-b8bb-000000000001
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel a9e61dbd-06ba-4de4-b8bb-000000000001
+DEBUG:zerorpc.channel:<-- new channel a9e61dbd-06ba-4de4-b8bb-000000000002
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel a9e61dbd-06ba-4de4-b8bb-000000000002
+DEBUG:zerorpc.channel:<-- new channel a9e61dbd-06ba-4de4-b8bb-000000000003
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel a9e61dbd-06ba-4de4-b8bb-000000000003
+DEBUG:zerorpc.channel:<-- new channel a9e61dbd-06ba-4de4-b8bb-000000000004
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel a9e61dbd-06ba-4de4-b8bb-000000000004
+DEBUG:zerorpc.channel:<-- new channel a9e61dbd-06ba-4de4-b8bb-000000000005
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel a9e61dbd-06ba-4de4-b8bb-000000000005
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000000
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000001
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000001
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000002
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000002
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000003
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000003
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000004
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000004
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000005
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000005
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000006
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000006
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000007
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000007
+DEBUG:zerorpc.channel:<-- new channel 4e56423c-4bb8-4c5f-b3ec-000000000008
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    response=ast.literal_eval(response)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 4e56423c-4bb8-4c5f-b3ec-000000000008
+DEBUG:zerorpc.channel:<-- new channel 7f36d0bb-3685-4f65-bbc9-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 7f36d0bb-3685-4f65-bbc9-000000000000
+DEBUG:zerorpc.channel:<-- new channel 7f36d0bb-3685-4f65-bbc9-000000000001
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 7f36d0bb-3685-4f65-bbc9-000000000001
+DEBUG:zerorpc.channel:<-- new channel 7f36d0bb-3685-4f65-bbc9-000000000002
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn=httplib.HTTPConnection(self.url)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 7f36d0bb-3685-4f65-bbc9-000000000002
+DEBUG:zerorpc.channel:<-- new channel 7f36d0bb-3685-4f65-bbc9-000000000003
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn=httplib.HTTPConnection(self.url)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 7f36d0bb-3685-4f65-bbc9-000000000003
+DEBUG:zerorpc.channel:<-- new channel 7f36d0bb-3685-4f65-bbc9-000000000004
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn=httplib.HTTPConnection(self.url)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 7f36d0bb-3685-4f65-bbc9-000000000004
+DEBUG:zerorpc.channel:<-- new channel 7f36d0bb-3685-4f65-bbc9-000000000005
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn=httplib.HTTPConnection(self.url)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 7f36d0bb-3685-4f65-bbc9-000000000005
+DEBUG:zerorpc.channel:<-- new channel 7f36d0bb-3685-4f65-bbc9-000000000006
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn=httplib.HTTPConnection(self.url)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 7f36d0bb-3685-4f65-bbc9-000000000006
+DEBUG:zerorpc.channel:<-- new channel 7f36d0bb-3685-4f65-bbc9-000000000007
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn=httplib.HTTPConnection(self.url)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 7f36d0bb-3685-4f65-bbc9-000000000007
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000000
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000000
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000001
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000001
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000002
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000002
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000003
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000003
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000004
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000004
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000005
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000005
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000006
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000006
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000007
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000007
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000008
+DEBUG:root:initiating listeninng thread
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000008
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-000000000009
+DEBUG:root:Shutting Down Thread
+DEBUG:root:closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn=httplib.HTTPConnection(self.url)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-000000000009
+DEBUG:zerorpc.channel:<-- new channel 0c03c916-59c4-4212-973c-00000000000a
+DEBUG:root:Shutting Down Thread
+DEBUG:root:Already Closed
+DEBUG:root:entered update commands
+ERROR:zerorpc.core:
+Traceback (most recent call last):
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\core.py", line 153, in _async_task
+    functor.pattern.process_call(self._context, bufchan, event, functor)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\patterns.py", line 30, in process_call
+    result = functor(*req_event.args)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\site-packages\zerorpc\decorators.py", line 44, in __call__
+    return self._functor(*args, **kargs)
+  File "C:\Users\shaha\Desktop\creating zip\VACA-Final\angular-electron\pythonServer\Main.py", line 76, in update_commands
+    conn=httplib.HTTPConnection(self.url)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1042, in request
+    self._send_request(method, url, body, headers)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1082, in _send_request
+    self.endheaders(body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 1038, in endheaders
+    self._send_output(message_body)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 882, in _send_output
+    self.send(msg)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 844, in send
+    self.connect()
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\httplib.py", line 821, in connect
+    self.timeout, self.source_address)
+  File "C:\Users\shaha\.windows-build-tools\python27\lib\socket.py", line 557, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+gaierror: [Errno 11001] getaddrinfo failed
+DEBUG:zerorpc.channel:-x- closed channel 0c03c916-59c4-4212-973c-00000000000a

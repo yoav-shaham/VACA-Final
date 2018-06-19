@@ -3,7 +3,7 @@ exports.__esModule = true;
 var electron_1 = require("electron");
 var path = require("path");
 var url = require("url");
-var win, serve;
+var pyProc, win, serve;
 var args = process.argv.slice(1);
 serve = args.some(function (val) { return val === '--serve'; });
 try {
@@ -42,7 +42,12 @@ function createWindow() {
         // in an array if your app supports multi windows, this is the time
         // when you should delete the corresponding element.
         win = null;
+        pyProc.kill();
+        pyProc = null;
     });
+    //let script = path.join(__dirname, 'pythonServer', 'Main.py')
+    //pyProc = require('child_process').spawn('python', [script])
+    //console.log("Ran Python")
 }
 try {
     // This method will be called when Electron has finished
@@ -56,6 +61,8 @@ try {
         if (process.platform !== 'darwin') {
             electron_1.app.quit();
         }
+        //pyProc.kill()
+        //pyProc=null
     });
     electron_1.app.on('activate', function () {
         // On OS X it's common to re-create a window in the app when the
@@ -64,6 +71,12 @@ try {
             createWindow();
         }
     });
+    // pyProc.stdout.on('data', function (data) {
+    //  console.log("pyProc: " + data.toString());
+    //});
+    //pyProc.stderr.on('data', function(data){
+    //console.log("Error: " + data.toString());
+    //});
 }
 catch (e) {
     // Catch Error

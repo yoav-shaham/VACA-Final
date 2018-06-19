@@ -1,5 +1,4 @@
 # -----------------------imports-----------------
-
 import Voice_Recognition as streaming
 import pyttsx
 import zerorpc
@@ -7,6 +6,7 @@ import httplib
 import threading
 import ast
 from multiprocessing import Process
+import sys
 # -----------------------------------------------
 """
  was not sure wether to use sphinx or google cloud decided on google because sphinx was very bad
@@ -42,14 +42,14 @@ class api(object):
     commands=[
     {"commandName":"hey there"}
     ]
-    url='https://ec2-18-221-254-75.us-east-2.compute.amazonaws.com:3000'
+    url='18.221.254.75:3000'
     def initiating_listening(self):
         zerorpc.heartbeat.gevent.sleep(0)
         while True:
             command = streaming.main()
             yield command
     def check_for_command(self):
-        print "initiating listeninng thread"
+        print ( "initiating listeninng thread")
         self.checking_thread=Process(target=self.check_for_command_thread,args=())
         self.checking_thread.start()
     def check_for_command_thread(self):
@@ -58,42 +58,47 @@ class api(object):
             for command in self.commands:
                 if command["commandName"].upper() in phrase.upper():
                    self.perform_command(command)
+                   print command
     def perform_command(self,command):
         try:
+            print command
             exec(command["commandScript"])
         except:
             engine=pyttsx.init()
             engine.say("Could not run the"+command["commandName"]+"command script")
             engine.runAndWait()
     def update_commands(self):
-        print "Shutting Down Thread"
+        print ( "Shutting Down Thread")
         wasAlive=self.shutdown_thread()
-        print "entered update commands"
+        print ( "entered update commands")
 
         conn=httplib.HTTPConnection(self.url)
         conn.request('GET','/command')
         response=conn.getresponse().read()
         conn.close()
         response=ast.literal_eval(response)
-        print type(response)
+        print ( type(response))
         self.commands=response["commands"]
-        print self.commands
+        print ( self.commands)
         if (wasAlive):
-            print "Turning on thread"
+            print ( "Turning on thread")
+
             self.check_for_command()
-            print "turned on"
+            print ( "turned on")
+
         return "Succes"
     def shutdown_thread(self):
         if self.checking_thread.is_alive():
             self.checking_thread.terminate()
             self.checking_thread.join()
-            print "closed"
+            print ( "closed")
             return True
         else:
-            print "Already Closed"
+            print ( "Already Closed")
 
 def main():
-    
+    print ( "Already Closed")
+    sys.stdout.flush()
     s = zerorpc.Server(api(),heartbeat=1000)
     s.bind("tcp://0.0.0.0:4242")
     s.run()

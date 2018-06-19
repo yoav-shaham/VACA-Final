@@ -2,7 +2,7 @@ import { app, BrowserWindow, screen } from 'electron';
 import * as path from 'path';
 import * as url from 'url';
 
-let win, serve;
+let pyProc,win, serve;
 const args = process.argv.slice(1);
 serve = args.some(val => val === '--serve');
 
@@ -45,7 +45,14 @@ function createWindow() {
     // in an array if your app supports multi windows, this is the time
     // when you should delete the corresponding element.
     win = null;
+    pyProc.kill()
+    pyProc=null
   });
+  //let script = path.join(__dirname, 'pythonServer', 'Main.py')
+  //pyProc = require('child_process').spawn('python', [script])
+  //console.log("Ran Python")
+
+  
 }
 
 try {
@@ -62,6 +69,8 @@ try {
     if (process.platform !== 'darwin') {
       app.quit();
     }
+    //pyProc.kill()
+    //pyProc=null
   });
 
   app.on('activate', () => {
@@ -71,7 +80,12 @@ try {
       createWindow();
     }
   });
-
+ // pyProc.stdout.on('data', function (data) {
+  //  console.log("pyProc: " + data.toString());
+//});
+  //pyProc.stderr.on('data', function(data){
+  //console.log("Error: " + data.toString());
+//});
 } catch (e) {
   // Catch Error
   // throw e;
