@@ -5,8 +5,7 @@ import { HttpClient } from '@angular/common/http';
 export class HttpService {
   
   constructor(private http: HttpClient) { }
-  //addr="http://ec2-18-221-254-75.us-east-2.compute.amazonaws.com:3000/command";
-  addr="http://127.0.0.1:3000/command"
+  addr="http://ec2-18-221-254-75.us-east-2.compute.amazonaws.com:3000/command";
   getCommands(){
     var x= this.http.get(this.addr)
   

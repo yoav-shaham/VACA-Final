@@ -26,16 +26,16 @@ export class CommandsComponent implements OnInit {
     {
       iconRegistry.addSvgIcon(
         'reload',
-        sanitizer.bypassSecurityTrustResourceUrl('../../../assets/refresh.svg'));
+        sanitizer.bypassSecurityTrustResourceUrl('../../../dist/assets/refresh.svg'));
       iconRegistry.addSvgIcon(
         'add',
-        sanitizer.bypassSecurityTrustResourceUrl('../../../assets/add.svg'));
+        sanitizer.bypassSecurityTrustResourceUrl('../../../dist/assets/add.svg'));
       iconRegistry.addSvgIcon(
         'back',
-        sanitizer.bypassSecurityTrustResourceUrl('../../../assets/back.svg'));
+        sanitizer.bypassSecurityTrustResourceUrl('../../../dist/assets/back.svg'));
       iconRegistry.addSvgIcon(
         'delete',
-        sanitizer.bypassSecurityTrustResourceUrl('../../../assets/delete.svg'));
+        sanitizer.bypassSecurityTrustResourceUrl('../../../dist/assets/delete.svg'));
         
 
     }

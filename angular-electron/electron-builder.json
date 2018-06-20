@@ -4,6 +4,9 @@
     "output": "app-builds"
   },
   "win": {
+    "extraFiles":[
+      "dist/assets"
+    ],
     "icon": "dist",
     "target": [
       "portable"
